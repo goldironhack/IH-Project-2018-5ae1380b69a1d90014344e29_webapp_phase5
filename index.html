@@ -1,15 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>NYU Living</title>
+	<style>
+		body{
+			margin: 0;
+		}
+		.container{
+			width: 960px;
+			margin: 0 auto;
+		}
+		.introduction{
+			background-color: #FFF8DC;
+			height: 180px;
+		}
+			.introduction div.logo{
+			line-height: 150px;
+			width: 480px;
+			font-family: "Century Gothic","Arial";
+			font-size: 70px;
+			font-weight: bold;
+			float: left;
+			margin-left: 20px;
+		}
+		.introduction div.backgroundintroduction{
+			font-family: "Century Gothic","Arial";
+			width: 420px;
+			float: left;
+			text-align: right;
+			line-height: 30px;
+			padding-top: 40px;
+		}
+		.user_info{
+			background-color:#FFF8DC;
+			height: 60px;
+			border-top-style: dashed;
+			border-bottom-style: dashed;
+			border-color: #003333;
+			text-align: right;
+		}
+		.user_info form{
+			float: left;
+			line-height: 60px;
+			margin-left: 20px;
+			font-family: "Century Gothic","Arial"
+		}
+		.user_info span{
+			margin-right: 40px;
+			font-family: "Century Gothic","Arial";
+			font-size: 20px;
+			line-height: 60px;
+		}
+		.boxmap{
+			height: 400px;
+			width: 460px;
+			background: #B7E1B5;
+			float: left;
+			border-right-color: #003333;
+			border-width: 2px;
+			border-right-style: solid;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-color: #003333;
+		}
+		.value{
+			text-align: center;
+			background-color: #FFF8DC;
+			line-height: 30px;
+			font-family: "Century Gothic","Arial";
+			font-size: 15px;
+			padding-bottom: 15px;
+			border-color: #003333;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+		}
+		.main{
+			background-color: #FFF8DC;
+			height: 420px;
+		}
+		.metric{
+			font-size: 30px;
+			line-height: 30px;
+			padding-top: 20px;
+			font-family: "Century Gothic","Arial";
+		}
+		.pagebottom{
+			background-color: #FFF8DC;
+			height: 60px;
+			border-top-style: dashed;
+			border-color: #003333;
+		}
+		.conductor{
+			text-align: right;
+			font-family: "Century Gothic","Arial";
+			line-height: 60px;
+			padding-right: 20px;
+		}
+	</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello World!</h1>
-        <button id="btn">Click me</button>
-    </div>
-    <script src="index.js"></script>
+	<div class="container">
+		<div class="introduction">
+		<div class="logo">|NYU Living|</div>
+		<div class="backgroundintroduction">
+			Do you want to enjoy life in NYU?
+			<br>Do you want a house surrounded by beautiful scene?
+			<br>Check information on this website and have fun!
+		</div>
+		</div>
+		<div class="user_info">
+			<form action="">
+				<select name="district" id="district">
+					<option value="">DISTRICT EXPECTED</option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+				</select>
+				<button>
+					DISTRICT
+				</button>
+			</form>
+			<span>Sign In</span>
+		    <span>Sign up</span>
+		    <span>About Us</span>
+		    <span>Contact</span>
+		</div>
+		<div class="main">
+		<div class="boxmap">
+			<img src="" alt="MAP" title="MAP" width=300px>
+		</div>
+		<div class="value">
+			<div class="metric">parameter</div>
+			<p>
+			Safety<input type="checkbox">
+			Distance<input type="checkbox">
+			Affordability<input type="checkbox">
+		</div>
+		</div>
+		<div class="pagebottom">
+			<div class="conductor">
+				CONDUCTOR | 1356354107@qq.com
+			</div>
+		</div>
+	</div>
+	
 </body>
 </html>
